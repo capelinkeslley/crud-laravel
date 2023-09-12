@@ -7,61 +7,94 @@
 <a href="https://packagist.org/packages/laravel/framework"><img src="https://img.shields.io/packagist/l/laravel/framework" alt="License"></a>
 </p>
 
-## About Laravel
 
-Laravel is a web application framework with expressive, elegant syntax. We believe development must be an enjoyable and creative experience to be truly fulfilling. Laravel takes the pain out of development by easing common tasks used in many web projects, such as:
+```markdown
+# Laravel Framework em PHP
 
-- [Simple, fast routing engine](https://laravel.com/docs/routing).
-- [Powerful dependency injection container](https://laravel.com/docs/container).
-- Multiple back-ends for [session](https://laravel.com/docs/session) and [cache](https://laravel.com/docs/cache) storage.
-- Expressive, intuitive [database ORM](https://laravel.com/docs/eloquent).
-- Database agnostic [schema migrations](https://laravel.com/docs/migrations).
-- [Robust background job processing](https://laravel.com/docs/queues).
-- [Real-time event broadcasting](https://laravel.com/docs/broadcasting).
+## Índice
 
-Laravel is accessible, powerful, and provides tools required for large, robust applications.
+- [O que é o Laravel?](#o-que-é-o-laravel)
+- [Para que pode ser usado? Front-end ou Back-end?](#para-que-pode-ser-usado-front-end-ou-back-end)
+- [É um Framework?](#é-um-framework)
+- [Vantagens](#vantagens)
+- [Desvantagens](#desvantagens)
+- [Características Principais](#características-principais)
+- [Servidores Web Disponíveis](#servidores-web-disponíveis)
+- [Configurações Necessárias](#configurações-necessárias)
+  - [Windows](#windows)
+  - [Linux](#linux)
+  - [Mac](#mac)
+- [Tipo de Licença](#tipo-de-licença)
+- [Responsáveis pelo Desenvolvimento](#responsáveis-pelo-desenvolvimento)
+- [Conclusões](#conclusões)
 
-## Learning Laravel
+## O que é o Laravel?
 
-Laravel has the most extensive and thorough [documentation](https://laravel.com/docs) and video tutorial library of all modern web application frameworks, making it a breeze to get started with the framework.
+O Laravel é um framework de desenvolvimento web escrito em PHP. Ele foi projetado para facilitar tarefas comuns usadas na maioria dos projetos web, como autenticação, roteamento, sessões e caching.
 
-You may also try the [Laravel Bootcamp](https://bootcamp.laravel.com), where you will be guided through building a modern Laravel application from scratch.
+## Para que pode ser usado? Front-end ou Back-end?
 
-If you don't feel like reading, [Laracasts](https://laracasts.com) can help. Laracasts contains over 2000 video tutorials on a range of topics including Laravel, modern PHP, unit testing, and JavaScript. Boost your skills by digging into our comprehensive video library.
+Laravel é usado principalmente para o desenvolvimento back-end, mas graças a recursos como Laravel Mix, ele também pode ajudar na compilação e otimização de recursos front-end.
 
-## Laravel Sponsors
 
-We would like to extend our thanks to the following sponsors for funding Laravel development. If you are interested in becoming a sponsor, please visit the Laravel [Patreon page](https://patreon.com/taylorotwell).
+## Vantagens
 
-### Premium Partners
+1. **Eloquent ORM**: Um sistema de mapeamento objeto-relacional que permite interagir com bancos de dados de forma mais eficiente.
+2. **Desenvolvimento Rápido**: Laravel oferece várias ferramentas e bibliotecas prontas para usar, o que acelera o desenvolvimento.
 
-- **[Vehikl](https://vehikl.com/)**
-- **[Tighten Co.](https://tighten.co)**
-- **[Kirschbaum Development Group](https://kirschbaumdevelopment.com)**
-- **[64 Robots](https://64robots.com)**
-- **[Cubet Techno Labs](https://cubettech.com)**
-- **[Cyber-Duck](https://cyber-duck.co.uk)**
-- **[Many](https://www.many.co.uk)**
-- **[Webdock, Fast VPS Hosting](https://www.webdock.io/en)**
-- **[DevSquad](https://devsquad.com)**
-- **[Curotec](https://www.curotec.com/services/technologies/laravel/)**
-- **[OP.GG](https://op.gg)**
-- **[WebReinvent](https://webreinvent.com/?utm_source=laravel&utm_medium=github&utm_campaign=patreon-sponsors)**
-- **[Lendio](https://lendio.com)**
+## Desvantagens
 
-## Contributing
+1. **Curva de Aprendizado**: Para quem é novo em frameworks PHP ou em programação, pode demorar um pouco para se acostumar.
+2. **Desempenho**: Embora seja muito poderoso, o Laravel pode ser mais lento em comparação com PHP puro para algumas aplicações.
 
-Thank you for considering contributing to the Laravel framework! The contribution guide can be found in the [Laravel documentation](https://laravel.com/docs/contributions).
+## Características Principais
 
-## Code of Conduct
+- Eloquent ORM
+- Blade Template Engine
+- Middleware
+- Sistemas de autenticação
+- MVC Architecture
 
-In order to ensure that the Laravel community is welcoming to all, please review and abide by the [Code of Conduct](https://laravel.com/docs/contributions#code-of-conduct).
+## Servidores Web Disponíveis
 
-## Security Vulnerabilities
+- Apache
+- Nginx
 
-If you discover a security vulnerability within Laravel, please send an e-mail to Taylor Otwell via [taylor@laravel.com](mailto:taylor@laravel.com). All security vulnerabilities will be promptly addressed.
+## Configurações Necessárias
 
-## License
+### Windows
 
-The Laravel framework is open-sourced software licensed under the [MIT license](https://opensource.org/licenses/MIT).
-# crud-laravel
+- WAMP/XAMPP ou equivalente
+- Composer para gerenciamento de dependência
+- PHP >= 7.3
+
+### Linux
+
+- LAMP ou equivalente
+- Composer
+- PHP >= 7.3
+
+### Mac
+
+- MAMP ou equivalente
+- Composer
+- PHP >= 7.3
+
+## Tipo de Licença
+
+Licença MIT, o que torna bastante flexível para uso em diversos tipos de projetos.
+
+## Responsáveis pelo Desenvolvimento
+
+Iniciado por Taylor Otwell, o Laravel tem uma grande comunidade de desenvolvedores contribuindo para o seu crescimento.
+
+## Conclusões
+
+- **Materiais e Documentação**: Há uma grande quantidade de materiais, incluindo documentação, tutoriais e cursos.
+  
+- **Facilidade de Configuração**: Laravel é bastante fácil de configurar, especialmente com ferramentas como Laravel Homestead que fornecem um ambiente de desenvolvimento Vagrant.
+
+- **Comunidade**: Uma das maiores vantagens do Laravel é sua comunidade ativa e crescente, o que torna fácil encontrar soluções para problemas que possam surgir.
+
+Em resumo, o Laravel é uma escolha sólida para o desenvolvimento web em PHP, oferecendo uma ampla gama de funcionalidades que aceleram o desenvolvimento e melhoram a qualidade do código.
+```
