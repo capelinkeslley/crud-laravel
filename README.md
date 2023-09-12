@@ -30,6 +30,7 @@
 - [Instalação do Composer](#instalaçãodo-composer)
 - [Criando um novo projeto](#criando-um-novo-rojeto)
 - [Criando o Banco de Dados](#criando-o-banco-de-dados)
+- [Estrutura das pastas](#estrutura-das-pastas)
 - [Criando o primeiro CRUD](#criando-o-primeiro-crud)
 
 ## O que é o Laravel?
@@ -268,11 +269,29 @@ Agora execute o seguinte comando para rodar as migrations
 php artisan migrate
 ```
 
+# Estrutura das pastas
+
+Os models podem ser acessados dentro da pasta app/Models.
+Os controllers podem ser acessados dentro da pasta app/Http/Controllers.
+As migrations podem ser acessadas dentro da pasta database/migrations.
+As rotas podem ser acessadas dentro de routes/api.php.
+
 
 # Criando o primeiro CRUD
 
-Por padrão o Laravel já cria um model User. Com isso rodando as migrations já vai criar uma tabela no banco chamada *users*
+Por padrão o Laravel já cria um model User. Com isso rodando as migrations já vai criar uma tabela no banco chamada *users*.
+Com isso, podemos dar sequência e criar um controller.
 
+### Criando um controller
 
+Como vamos criar o controller do model User, execute o seguinte comando:
 
+```bash
+php artisan make:controller UserController --resource
+```
 
+O código do UserController pode ser acessado dentro de app/Http/Controllers/UserController.php
+
+### Adicionando as rotas
+
+Para adicionar as rotas, é preciso acessar o arquivo routes/api.php
