@@ -8,7 +8,6 @@
 </p>
 
 
-```markdown
 # Laravel Framework em PHP
 
 ## Índice
@@ -97,4 +96,3 @@ Iniciado por Taylor Otwell, o Laravel tem uma grande comunidade de desenvolvedor
 - **Comunidade**: Uma das maiores vantagens do Laravel é sua comunidade ativa e crescente, o que torna fácil encontrar soluções para problemas que possam surgir.
 
 Em resumo, o Laravel é uma escolha sólida para o desenvolvimento web em PHP, oferecendo uma ampla gama de funcionalidades que aceleram o desenvolvimento e melhoram a qualidade do código.
-```
