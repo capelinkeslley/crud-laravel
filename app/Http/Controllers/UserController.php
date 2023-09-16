@@ -26,7 +26,7 @@ class UserController extends Controller
         $user = new User;
         $user->name = $request->name;
         $user->email = $request->email;
-        // ... outros campos
+        $user->password = $request->password;
         $user->save();
 
         return response()->json(['message' => 'Usuário criado com sucesso'], 201);
@@ -38,7 +38,6 @@ class UserController extends Controller
         if ($user) {
             $user->name = $request->name;
             $user->email = $request->email;
-            // ... outros campos
             $user->save();
 
             return response()->json(['message' => 'Usuário atualizado com sucesso']);
