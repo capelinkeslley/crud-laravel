@@ -78,7 +78,7 @@ Licença MIT, o que torna bastante flexível para uso em diversos tipos de proje
 
 ## Responsáveis pelo Desenvolvimento
 
-Iniciado por Taylor Otwell, o Laravel tem uma grande comunidade de desenvolvedores contribuindo para o seu crescimento.
+Iniciado em 2011 por Taylor Otwell, o Laravel tem uma grande comunidade de desenvolvedores contribuindo para o seu crescimento.
 
 ## Conclusões
 
