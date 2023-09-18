@@ -293,3 +293,8 @@ O código do UserController pode ser acessado dentro de app/Http/Controllers/Use
 ### Adicionando as rotas
 
 Para adicionar as rotas, é preciso acessar o arquivo routes/api.php
+
+
+No Postman:
+
+api/users
