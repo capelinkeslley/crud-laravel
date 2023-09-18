@@ -67,8 +67,6 @@ Laravel é usado principalmente para o desenvolvimento back-end, mas graças a r
 
 ## Configurações Necessárias
 
-### Windows
-
 - WAMP/XAMPP ou equivalente
 - Composer para gerenciamento de dependência
 - PHP >= 7.3
