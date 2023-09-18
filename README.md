@@ -295,6 +295,53 @@ O código do UserController pode ser acessado dentro de app/Http/Controllers/Use
 Para adicionar as rotas, é preciso acessar o arquivo routes/api.php
 
 
-No Postman:
+### Endpoints
 
-api/users
+Index:
+
+```
+http://localhost:8000/api/users
+```
+
+Show:
+```
+http://localhost:8000/api/users/:id
+```
+
+Create:
+
+```
+http://localhost:8000/api/users
+```
+
+body:
+
+```json
+{
+    "name": "Nome",
+    "email": "keslley@gmail.com",
+    "password": "12345678"
+}
+```
+
+Update:
+
+```
+http://localhost:8000/api/users/:id
+```
+
+
+body:
+
+```json
+{
+    "name": "Nome",
+    "email": "keslley@gmail.com",
+    "password": "12345678"
+}
+```
+
+Delete:
+```
+http://localhost:8000/api/users/:id
+```
