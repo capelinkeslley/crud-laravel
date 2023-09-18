@@ -303,9 +303,45 @@ Index:
 http://localhost:8000/api/users
 ```
 
+Response:
+
+```json
+[
+    {
+        "id": 3,
+        "name": "Nome",
+        "email": "keslley@gmail.com",
+        "email_verified_at": null,
+        "created_at": "2023-09-18T22:30:12.000000Z",
+        "updated_at": "2023-09-18T22:30:12.000000Z"
+    },
+    {
+        "id": 4,
+        "name": "Outro",
+        "email": "user@gmail.com",
+        "email_verified_at": null,
+        "created_at": "2023-09-18T22:30:24.000000Z",
+        "updated_at": "2023-09-18T22:30:24.000000Z"
+    }
+]
+```
+
 Show:
 ```
 http://localhost:8000/api/users/:id
+```
+
+Response:
+
+```json
+{
+    "id": 3,
+    "name": "Nome",
+    "email": "keslley@gmail.com",
+    "email_verified_at": null,
+    "created_at": "2023-09-18T22:30:12.000000Z",
+    "updated_at": "2023-09-18T22:30:12.000000Z"
+}
 ```
 
 Create:
@@ -314,13 +350,21 @@ Create:
 http://localhost:8000/api/users
 ```
 
-body:
+Body:
 
 ```json
 {
     "name": "Nome",
     "email": "keslley@gmail.com",
     "password": "12345678"
+}
+```
+
+Response:
+
+```json
+{
+    "message": "Usuário criado com sucesso"
 }
 ```
 
@@ -331,7 +375,7 @@ http://localhost:8000/api/users/:id
 ```
 
 
-body:
+Body:
 
 ```json
 {
@@ -341,7 +385,23 @@ body:
 }
 ```
 
+Response:
+
+```json
+{
+    "message": "Usuário atualizado com sucesso"
+}
+```
+
 Delete:
 ```
 http://localhost:8000/api/users/:id
+```
+
+Response:
+
+```json
+{
+    "message": "Usuário removido com sucesso"
+}
 ```
